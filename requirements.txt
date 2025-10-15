@@ -1,3 +1,5 @@
+# Create requirements.txt in your current directory
+cat > requirements.txt << 'EOF'
 # Core AI Framework
 deeppavlov==1.1.1
 transformers==4.38.0
@@ -30,3 +32,4 @@ requests==2.31.0
 fastapi==0.104.1
 uvicorn==0.24.0
 pydantic==2.5.0
+EOF
